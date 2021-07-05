@@ -22,6 +22,7 @@ apt.packages(
   name='Install tailscale',
   packages=['apt-transport-https', 'tailscale'],
   update=True,
+  latest=True,
 )
 
 server.shell(
